@@ -1,0 +1,112 @@
+.main_section_right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    background-color: #a6a6a666;
+    height: 218px;
+    padding: 184px 125px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 275px 14px;
+    /* margin: 22% auto; */
+}
+/* 161616d6 */
+.main_section_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login_page{
+    background-image: url("https://c0.wallpaperflare.com/preview/539/551/580/analog-analogue-antique-black-and-white.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.main_section_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 349px;
+}
+.main_section_left_content{
+    width: 430px;
+    text-align: left;
+}
+.main_section_right button{
+    background-color: rgb(0 0 0 / 56%);
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+
+}
+.main_section_right input{
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 1px 19px;
+    width:240px;
+}
+/* .Login_page_footer{
+    position:relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    right: 0px;
+} */
+.main_section_left p{
+    font-size: 26px;
+    font-style: oblique;
+    font-family: none;
+}
+
+.Description:hover{
+    color: white;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.Description {
+    transition: 2s ease-out ;   
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    justify-content: center;
+
+}
+.footer p {
+    color: white;
+}
+
+.header{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* .main_right{
+    background-color: #a6a6a666;
+padding: 30px;
+
+} */
+
+.main_section_footer button{
+    cursor: pointer;
+}

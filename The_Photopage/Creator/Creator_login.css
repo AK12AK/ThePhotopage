@@ -1,0 +1,170 @@
+/* .creator_login{
+    background-image: url('/home/codilar/my-app/src/images/wallpaperflare.com_wallpaper.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    animation: fadein 4s linear;
+    filter: brightness(120%);
+    background-color: aqua;
+} */
+
+.creator_login {
+    position: relative;
+}
+
+.parent {
+    background-image: url('/home/codilar/my-app/src/images/wallpaperflare.com_wallpaper.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadein 5s linear;
+    filter: brightness(138%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+@keyframes fadein {
+    0% {
+        filter: brightness(10%);
+    }
+
+    100% {
+        filter: brightness(138%);
+    }
+}
+
+.creator_login_section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 165px 90px;
+    background-color: #ffffff00;
+    box-shadow: 0px 0px 89px 0px black;
+    animation: fadein-creator 3s linear;
+}
+
+@keyframes fadein-creator {
+    0% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.creator_login_section input {
+    padding: 1px 19px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    width: 240px;
+}
+
+.main {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+.content {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content_footer button {
+    background-color: #706e6e75;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.img_creator_login {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.creator_login_section_2 {
+    display: flex;
+    row-gap: 40px;
+    background-color: #f5f5f500;
+    flex-direction: column;
+    padding: 110px 145px;
+    box-shadow: 0px 0px 89px 0px black;
+    animation: fadein-creator 1s linear;
+}
+
+.creator_login_section_2 input {
+    padding: 1px 19px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    width: 240px;
+}
+
+.checkbox_section_2 input {
+    padding: 0;
+    height: 15px;
+    width: 15px;
+}
+
+.checkbox_section_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.creator_login_section_2_gaps {
+    display: flex;
+    column-gap: 60px;
+}
+
+.studioname input {
+    padding: 1px 19px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    width: 240px;
+    animation: fadeIN 1.2s linear;
+}
+
+@keyframes fadeIN {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dob{
+    display: flex;
+    align-items: center;
+}
+
+.dob input{
+    width: 165px;
+}
+
+.dob_label{
+    color: white;
+    padding-right: 20px;
+}

@@ -1,0 +1,122 @@
+.headerhome{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.welcomemsg {
+    color:whitesmoke;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+    opacity: 1;
+    margin: auto;
+    animation: fade 3.999s linear;
+    font-size: 100px;
+}
+
+@keyframes fade {
+
+    0%,
+    100% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+.homepage{
+    background-image: url("https://images.unsplash.com/photo-1527607976958-7cbb4a6d0131?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+*/
+.homepage::before {    
+    content: "";
+    background-image: url("https://lifebeyondnumbers.com/wp-content/uploads/2020/08/World-Photography-Day.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3 ;
+}
+
+.main_users{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    column-gap: 300px;
+    
+}
+.main_users_animation{
+    animation: fadein 3s linear;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.headerhome_animation{
+    animation: fadein 1.9s linear;
+}
+
+.main_section1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    height: 100%;
+}
+
+.main_users{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-family: monospace;
+    /* transition: all 500ms; */
+}
+
+.main_section1_users :hover{
+    font-size:68px;
+    transition: all 500ms;
+    background-color: #ffffff7d;
+    color: black;
+    /* font-size-adjust: 20px; */ 
+}
+
+/* .main_section1_users ::before :hover{
+    font-size:38px;
+    transition: all 600ms;
+} */
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
